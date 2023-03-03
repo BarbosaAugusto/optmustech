@@ -7,6 +7,8 @@
     --segunda-cor-texto: #101828;
     --terceira-cor-texto: #8E2424;
     --quarta-cor-texto: #FFFFFF;
+    --cor-de-fundo-texto: #f3f1e9;
+    --cor-de-fundo-rodape: #F9FAFB;
     --fonte-principal: "inter";
 }
 
@@ -15,4 +17,5 @@ body {
     font-family: var(--fonte-principal);
     font-size: 1rem;
     font-weight: 400;
+    color: var(--primeira-cor-texto);
 }

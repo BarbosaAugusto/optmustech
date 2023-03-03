@@ -24,3 +24,46 @@
     line-height: 1.5rem;
     text-align: center;
 }
+
+.conteudo-metrica {
+    display: flex;
+    padding: 0 5em 6em;
+    gap: 2em;
+    justify-content: space-evenly;
+}
+
+.conteudo-metrica-item-numero {
+    font-size: 3.75rem;
+    font-weight: 600;
+    color: var(--terceira-cor-texto);
+}
+
+.conteudo-metrica-item {
+    padding: 0;
+    max-width: 18%;
+}
+
+.conteudo-metrica-item-titulo {
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: var(--segunda-cor-texto);
+    padding: 1em 0;
+}
+
+.conteudo-metrica-item-texto {
+    line-height: 1.5rem;
+}
+
+.conteudo-vagas-talentos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 6em 5em 0;
+}
+
+.conteudo-vagas-talentos-subtitulo {
+    font-weight: 500;
+    color: var(--terceira-cor-texto);
+    background-color: var(--cor-de-fundo-texto);
+}
+    
