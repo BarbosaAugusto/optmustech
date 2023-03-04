@@ -54,16 +54,37 @@
     line-height: 1.5rem;
 }
 
-.conteudo-vagas-talentos {
-    display: flex;
-    flex-direction: column;
+.conteudo-vagas {
     text-align: center;
-    padding: 6em 5em 0;
 }
 
-.conteudo-vagas-talentos-subtitulo {
+.conteudo-vagas-subtitulo {
     font-weight: 500;
     color: var(--terceira-cor-texto);
     background-color: var(--cor-de-fundo-texto);
+    border-radius: 1rem;
+    padding: 0.5rem;
+}
+
+.conteudo-vagas-talentos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conteudo-vagas-talentos-titulo {
+    font-weight: 600;
+    font-size: 2.25rem;
+    color: var(--segunda-cor-texto);
+    padding: 1.25rem;
+}
+
+.conteudo-sobre-paragrafo {
+    font-size: 1.25rem;
+}
+
+.conteudo-vagas-talentos-imagem {
+    max-width: 25rem 76rem;
+    padding: 4rem 0;
 }
     
