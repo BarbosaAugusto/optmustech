@@ -87,4 +87,35 @@
     max-width: 25rem 76rem;
     padding: 4rem 0;
 }
+
+.conteudo-vagas-abertas {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 0 21rem;
+    text-align: start;
+}
+
+.conteudo-vagas-area {
+    font-weight: 500;
+    font-size: 1.25rem;
+    color: var(--segunda-cor-texto);
+}
+
+.conteudo-vagas-vaga {
+    border: 1px solid var(--cor-borda-vaga);
+    border-radius: 1rem;
+    padding: 1.5rem 0 1.75rem 1.5rem;
+}
+
+.titulo-vaga {
+    font-weight: 500;
+    font-size: 1.125;
+    color: var(--segunda-cor-texto);
+}
+
+.conteudo-vagas-vaga-informacoes {
+    font-weight: 500;
+    padding-top: 2rem;
+}
     
