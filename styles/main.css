@@ -118,4 +118,47 @@
     font-weight: 500;
     padding-top: 2rem;
 }
+
+.depoimentos {
+    margin: 6rem 7rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: var(--cor-de-fundo-texto);
+    padding: 4rem;
+}
+
+.depoimentos__titulo {
+    font-weight: 600;
+    font-size: 0.875rem;
+    color: var(--terceira-cor-texto);
+}
+
+.depoimentos__texto {
+    font-weight: 500;
+    font-size: 2rem;
+    color: var(--segunda-cor-texto);
+    margin: 1rem 0 1rem;
+}
+
+.depoente {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.depoente__foto {
+    height: 3.25rem;
+    margin: 1rem 0 1rem;
+}
+
+.depoente__nome {
+    color: var(--segunda-cor-texto);
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.depoente__area {
+    font-size: 0.875rem;
+}
     
