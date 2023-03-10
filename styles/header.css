@@ -1,18 +1,18 @@
-.cabecalho-menu {
+.cabecalho__menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 2% 6%;
 }
 
-.cabecalho-menu-link {
+.cabecalho__link {
     margin: 2rem;
     font-weight: 500;
     text-decoration: none;
     color: var(--primeira-cor-texto);
 }
 
-.cabecalho-menu-botao {
+.cabecalho__botao {
     font-weight: 500;
     background-color: var(--terceira-cor-texto);
     color: var(--quarta-cor-texto);

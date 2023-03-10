@@ -38,6 +38,6 @@
     cursor: pointer;
 }
 
-.copyright {
+.rodape__copyright {
     color: var(--cor-copyright);
 }

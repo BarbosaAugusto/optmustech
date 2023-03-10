@@ -1,4 +1,4 @@
-.conteudo-sobre {
+.sobre {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -6,18 +6,18 @@
     gap: 1.5rem;
 }
 
-.conteudo-sobre-subtitulo {
+.sobre__subtitulo {
     font-weight: 600;
     color: var(--terceira-cor-texto);
 }
 
-.conteudo-sobre-titulo {
+.sobre__titulo {
     font-weight: 600;
     font-size: 3rem;
     color: var(--segunda-cor-texto);
 }
 
-.conteudo-sobre-paragrafo {
+.sobre__paragrafo {
     font-size: 1.25rem;
     color: var(--primeira-cor-texto);
     max-width: 50%;
@@ -25,70 +25,71 @@
     text-align: center;
 }
 
-.conteudo-metrica {
+.metrica {
     display: flex;
     padding: 0 5em 6em;
     gap: 2em;
     justify-content: space-evenly;
 }
 
-.conteudo-metrica-item-numero {
+.item__numero {
     font-size: 3.75rem;
     font-weight: 600;
     color: var(--terceira-cor-texto);
 }
 
-.conteudo-metrica-item {
+.metrica__item {
     padding: 0;
     max-width: 18%;
 }
 
-.conteudo-metrica-item-titulo {
+.item__titulo {
     font-size: 1.125rem;
     font-weight: 500;
     color: var(--segunda-cor-texto);
     padding: 1em 0;
 }
 
-.conteudo-metrica-item-texto {
+.item__texto {
     line-height: 1.5rem;
 }
 
-.conteudo-vagas {
+.vagas {
     text-align: center;
 }
 
-.conteudo-vagas-subtitulo {
+.vagas__subtitulo {
     font-weight: 500;
     color: var(--terceira-cor-texto);
     background-color: var(--cor-de-fundo-texto);
     border-radius: 1rem;
     padding: 0.5rem;
+    display: inline;
 }
 
-.conteudo-vagas-talentos {
+.vagas__talentos {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.conteudo-vagas-talentos-titulo {
+.talentos__titulo {
     font-weight: 600;
     font-size: 2.25rem;
     color: var(--segunda-cor-texto);
     padding: 1.25rem;
 }
 
-.conteudo-sobre-paragrafo {
+.talentos__paragrafo {
     font-size: 1.25rem;
 }
 
-.conteudo-vagas-talentos-imagem {
+.talentos__imagem {
     max-width: 25rem 76rem;
     padding: 4rem 0;
 }
 
-.conteudo-vagas-abertas {
+.vagas__abertas {
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -96,27 +97,29 @@
     text-align: start;
 }
 
-.conteudo-vagas-area {
+.vagas__area {
     font-weight: 500;
     font-size: 1.25rem;
     color: var(--segunda-cor-texto);
 }
 
-.conteudo-vagas-vaga {
+.vagas__vaga {
     border: 1px solid var(--cor-borda-vaga);
     border-radius: 1rem;
     padding: 1.5rem 0 1.75rem 1.5rem;
 }
 
-.titulo-vaga {
+.vaga__titulo {
     font-weight: 500;
-    font-size: 1.125;
+    font-size: 1.125rem;
     color: var(--segunda-cor-texto);
 }
 
-.conteudo-vagas-vaga-informacoes {
+.vaga__informacoes {
     font-weight: 500;
     padding-top: 2rem;
+    display: flex;
+    gap: 1.5rem;
 }
 
 .depoimentos {
