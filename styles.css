@@ -1,0 +1,19 @@
+@import url("styles/header.css");
+
+:root {
+    --fonte-primaria: 'Inter', sans-serif;
+    --cor-fonte-primaria: #101828;
+    --cor-fonte-secundaria: #667085;
+    --cor-fonte-terciaria: #8E2424;
+    --cor-fonte-quaternaria: #FFF;
+    --background: #FFF;
+}
+
+body {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--fonte-primaria);
+    color: var(--cor-fonte-primaria);
+    background-color: var(--background);
+}
+

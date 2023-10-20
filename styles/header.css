@@ -1,0 +1,39 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.logo__nome {
+    text-decoration: none;
+    font-size: 18px;
+    color: var(--cor-fonte-primaria);
+}
+
+.navbar {
+    display: flex;
+    gap: 2rem;
+}
+
+.navbar__link, .entrar, .cadastrar {
+    color: var(--cor-fonte-secundaria);
+    text-decoration: none;
+}
+
+.acesso {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.cadastrar {
+    color: var(--cor-fonte-quaternaria);
+    background: var(--cor-fonte-terciaria);
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
