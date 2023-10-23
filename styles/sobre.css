@@ -3,7 +3,7 @@
     flex-direction: column;
     margin: 6rem auto;
     text-align: center;
-    width: 48%;
+    width: 55%;
 }
 
 .sobre-nos__titulo {
@@ -20,4 +20,5 @@
 .sobre-nos__texto {
     font-size: 20px;
     color: var(--cor-fonte-secundaria);
+    font-weight: 400;
 }
